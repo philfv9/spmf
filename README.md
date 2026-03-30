@@ -28,13 +28,24 @@ If you want to share some improvements, please contact the SPMF founder at  phil
 
 # **License**
 
-SPMF is licensed under the GPLv3 license and derivative work must also be licensed under the GPLv3.
+The code is licensed under the open-source GNU GPL version 3 license. The GPL license provides four freedoms: (1)  Obtain and run the program for any purpose, (2)
+Get a copy of the source code, (3) Modify the source code, (4) Re-distribute the modified source code. 
+The main restriction is that if you want to redistribute the software, you must: (1) provide access to the source code, (2) license derived work under the same GPL v3 license, and (3) 
+the work must carry prominent notices stating that you modified it, and giving a relevant date. See the GPL license for more details
 
 # **Citation**
 If you use SPMF in your research, please cite:
 
-Fournier-Viger, P., et al. 
-SPMF: A Java Open-Source Pattern Mining Library.
-Journal of Machine Learning Research (JMLR), 2014.
+Fournier-Viger, P., et al.  SPMF: A Java Open-Source Pattern Mining Library. Journal of Machine Learning Research (JMLR), 2012.
+
+or
+
+Fournier-Viger, P., Lin, C.W., Gomariz, A., Gueniche, T., Soltani, A., Deng, Z., Lam, H. T. (2016). The SPMF Open-Source Data Mining Library Version 2. Proc. 19th European Conference on Principles of Data Mining and Knowledge Discovery (PKDD 2016) Part III, Springer LNCS 9853,  pp. 36-40.
+
+This will help to support the project!
+
+# Authors
+Philippe Fournier-Viger and other project leaders and contributors  ( https://philippe-fournier-viger.com/spmf/index.php?link=contributors.php ).
+
 
 
