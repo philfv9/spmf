@@ -17,23 +17,26 @@ This GitHub repository hosts the source code.
 For full documentation, tutorials, and downloads, always refer to:
 https://www.philippe-fournier-viger.com/spmf/
 
-# **Documentation**
+# **How to use and install**
 
- *All documentation is available here:
-- https://www.philippe-fournier-viger.com/spmf/
+See the download page on the SPMF website for how to install and use the software:
+- [[https://www.philippe-fournier-viger.com/spmf/download.php]()](https://philippe-fournier-viger.com/spmf/index.php?link=download.php)
+
+Moreover the full documentation of the software with examples for each algorithm is available here:
+- https://www.philippe-fournier-viger.com/spmf/ 
 
 # **Contributing**
 
 If you want to share some improvements, please contact the SPMF founder at  philfv AT qq.com
 
-# **License**
+# License
 
 The code is licensed under the open-source GNU GPL version 3 license. The GPL license provides four freedoms: (1)  Obtain and run the program for any purpose, (2)
 Get a copy of the source code, (3) Modify the source code, (4) Re-distribute the modified source code. 
 The main restriction is that if you want to redistribute the software, you must: (1) provide access to the source code, (2) license derived work under the same GPL v3 license, and (3) 
 the work must carry prominent notices stating that you modified it, and giving a relevant date. See the GPL license for more details
 
-# **Citation**
+# Citation
 If you use SPMF in your research, please cite:
 
 Fournier-Viger, P., et al.  SPMF: A Java Open-Source Pattern Mining Library. Journal of Machine Learning Research (JMLR), 2012.
@@ -45,7 +48,15 @@ Fournier-Viger, P., Lin, C.W., Gomariz, A., Gueniche, T., Soltani, A., Deng, Z.,
 This will help to support the project!
 
 # Authors
-Philippe Fournier-Viger and other project leaders and contributors  ( https://philippe-fournier-viger.com/spmf/index.php?link=contributors.php ).
+**Project leaders**
+
+Prof. Philippe Fournier-Viger (founder) - Shenzhen University, Shenzhen, China
+Prof. Jerry Chun-Wei Lin
+Prof. Wei Song - North China University of Technology, Beijing, China
+Prof. Vincent S. Tseng - National Chiao Tung University, Taiwan
+Prof. Ji Zhang - University of Southern Queensland, Australia
+
+**List of contributors**  ( https://philippe-fournier-viger.com/spmf/index.php?link=contributors.php ).
 
 
 
