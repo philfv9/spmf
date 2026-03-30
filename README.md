@@ -25,8 +25,7 @@ https://www.philippe-fournier-viger.com/spmf/
 
 See the [download page](https://philippe-fournier-viger.com/spmf/index.php?link=download.php) on the SPMF website for installation instructions and usage guidelines.
 
-SPMF can also be called from other languages using the command line interface or wrappers:
-- [Python, R, C#, and more](https://www.philippe-fournier-viger.com/spmf/index.php?link=spmfwrappers.php)
+SPMF can be used as a standalone software with a GUI or with the command line. Moreover, it can also be called from other languages using the command line interface or wrappers in [Python, R, C#, and more](https://www.philippe-fournier-viger.com/spmf/index.php?link=spmfwrappers.php)
 
 ---
 
@@ -56,7 +55,6 @@ SPMF can also be called from other languages using the command line interface or
 
 ## Related resources
 
-### Videos
 - [The Pattern Mining Course](https://data-mining.philippe-fournier-viger.com/COURSES/Pattern_mining/index.php) — A free online course covering pattern mining algorithms and their implementation
 - [Pattern Mining Videos](https://www.philippe-fournier-viger.com/spmf/index.php?link=videos.php)
 - [The Data Blog](https://data-mining.philippe-fournier-viger.com/) — Blog from the founder of SPMF
