@@ -1,4 +1,4 @@
-<div align="center">>
+<div align="center">
   <h1>SPMF: Open-Source Data Mining Library</h1>
   <img src="images/spmf.png" alt="SPMF Logo" width="200">
 </div>
@@ -55,7 +55,7 @@ SPMF can be used as a standalone software with a GUI or with the command line. M
 
 ## Related resources
 
-- The SPMF website: https://www.philippe-fournier-viger.com/spmf/
+- [The SPMF website](https://www.philippe-fournier-viger.com/spmf/) 
 - [The Pattern Mining Course](https://data-mining.philippe-fournier-viger.com/COURSES/Pattern_mining/index.php) — A free online course covering pattern mining algorithms and their implementation
 - [Pattern Mining Videos](https://www.philippe-fournier-viger.com/spmf/index.php?link=videos.php)
 - [The Data Blog](https://data-mining.philippe-fournier-viger.com/) — Blog from the founder of SPMF
@@ -65,8 +65,7 @@ SPMF can be used as a standalone software with a GUI or with the command line. M
 
 ##  Contributing
 
-If you would like to contribute improvements, please contact the SPMF founder:  
-📧 **philfv AT qq.com**
+If you would like to contribute improvements, please contact the SPMF founder:  **philfv AT qq.com**
 
 See the [contributors page](https://www.philippe-fournier-viger.com/spmf/index.php?link=contributors.php) for a list of people who have contributed to the project.
 
