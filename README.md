@@ -1,4 +1,7 @@
-# SPMF: Open-Source Data Mining Library
+<div align="center">>
+  <h1>SPMF: Open-Source Data Mining Library</h1>
+  <img src="images/spmf.png" alt="SPMF Logo" width="200">
+</div>
 
 **SPMF** is a popular **open-source data mining library** written in **Java**, specializing in **pattern mining**. It provides over **300 algorithms** for discovering patterns in data, including:
 
@@ -44,6 +47,14 @@ SPMF can also be called from other languages using the command line interface or
   https://philippe-fournier-viger.com/spmf/index.php?link=datasets.php
 
 ---
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src="images/spmf_small3.jpg" alt="SPMF GUI Screenshot" width="600">
+  <br>
+  <em>SPMF Graphical User Interface</em>
+</div>
 
 ## 🎓 Related resources
 
