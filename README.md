@@ -26,18 +26,28 @@ See the download page on the SPMF website for how to install and use the softwar
 
 # Documentation 
 The full documentation of the software with examples for each algorithm is available here:
-- https://www.philippe-fournier-viger.com/spmf/ 
+- https://www.philippe-fournier-viger.com/spmf/
+
+The FAQ:  https://philippe-fournier-viger.com/spmf/index.php?link=FAQ.php
+
+# List of algorithms
+
+The list of algorithms is here:  https://philippe-fournier-viger.com/spmf/index.php?link=algorithms.php 
+
+# Public datasets
+
+A long list of public datasets in SPMF format can be found here:  https://philippe-fournier-viger.com/spmf/index.php?link=datasets.php
 
 # Contributing
 
 If you want to share some improvements, please contact the SPMF founder at  **philfv AT qq.com**
 
-# License
+# License of the code
 
 The code is licensed under the open-source GNU GPL version 3 license. The GPL license provides four freedoms: (1)  Obtain and run the program for any purpose, (2)
 Get a copy of the source code, (3) Modify the source code, (4) Re-distribute the modified source code. 
 The main restriction is that if you want to redistribute the software, you must: (1) provide access to the source code, (2) license derived work under the same GPL v3 license, and (3) 
-the work must carry prominent notices stating that you modified it, and giving a relevant date. See the GPL license for more details
+the work must carry prominent notices stating that you modified it, and giving a relevant date. See the GPL license for more details.
 
 # Citation
 If you use SPMF in your research, please cite any of those papers:
@@ -55,7 +65,7 @@ This will help to support the project! Thanks!
 * Prof. Vincent S. Tseng - National Chiao Tung University, Taiwan
 * Prof. Ji Zhang - University of Southern Queensland, Australia
 
-**List of contributors**  ( https://philippe-fournier-viger.com/spmf/index.php?link=contributors.php ).
+Moreover, many contributors have participated to SPMF:  https://philippe-fournier-viger.com/spmf/index.php?link=contributors.php 
 
 
 
