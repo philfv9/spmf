@@ -22,7 +22,7 @@ The **current version is v2.65** and was released the ** 18th February 2026**
 # How to install 
 
 See the download page on the SPMF website for how to install and use the software:
-- [[https://www.philippe-fournier-viger.com/spmf/download.php]()](https://philippe-fournier-viger.com/spmf/index.php?link=download.php)
+- https://philippe-fournier-viger.com/spmf/index.php?link=download.php
 
 # Documentation 
 The full documentation of the software with examples for each algorithm is available here:
