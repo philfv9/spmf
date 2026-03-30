@@ -1,6 +1,6 @@
 # SPMF: Open-Source Data Mining Library
 
-SPMF is a popular open-source data mining library written in Java. It provides implementations of more than 230 algorithms for discovering patterns in data, including:
+SPMF is a popular open-source data mining library written in Java. It provides implementations of more than 300 algorithms for discovering patterns in data, including:
 
 - Frequent itemsets
 - Association rules
