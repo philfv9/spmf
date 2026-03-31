@@ -3,21 +3,23 @@
   <img src="images/spmf.png" alt="SPMF Logo" width="200">
 </div>
 
-**SPMF** is a popular **open-source data mining library** written in **Java**, specializing in **pattern mining**. It provides over **300 algorithms** for discovering patterns in data, including:
+**[SPMF](https://www.philippe-fournier-viger.com/spmf/)** is a popular **open-source data mining library** written in **Java**, specializing in **pattern mining**. It provides over **300 algorithms** for various tasks such as:
 
-- Frequent itemsets and association rules
-- Sequential patterns and sequential rules
-- High-utility itemsets
-- Episode rules
-- Time series patterns
-- And much more
+- Frequent itemset mining
+- Association rule mining
+- Sequential pattern mining
+- Sequential rule mining
+- High-utility itemset mining
+- Episode mining
+- Graph mining
+- Time series analysis
+- etc.
 
 SPMF is designed for both **researchers and practitioners**, offering a simple API, a graphical user interface (GUI), and command-line tools. It is lightweight with **no external dependencies**.
 
 **Current version:** `v2.65` (released February 18, 2026)
 
-👉 **Note:** This GitHub repository hosts the source code. For full documentation, tutorials, downloads, and support, please visit the official website:  
-https://www.philippe-fournier-viger.com/spmf/
+**IMPORTANT:**  This GitHub repository hosts the source code of the latest version. For full documentation, tutorials, downloads, and support, please visit the official website:  👉 https://www.philippe-fournier-viger.com/spmf/
 
 ---
 
@@ -40,7 +42,7 @@ SPMF can be used as a standalone software with a GUI or with the command line. M
 - **List of algorithms**:  
   https://philippe-fournier-viger.com/spmf/index.php?link=algorithms.php
 
-- **Public datasets** (in SPMF format):  
+- **Datasets from SPMF website** (in SPMF format):  
   https://philippe-fournier-viger.com/spmf/index.php?link=datasets.php
 
 ---
