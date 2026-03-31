@@ -17,6 +17,8 @@
 
 SPMF is designed for both **researchers and practitioners**, offering a simple API, a graphical user interface (GUI), and command-line tools. It is lightweight with **no external dependencies**.
 
+SPMF can be used as a standalone software with a GUI or with the command line. Moreover, it can also be called from other languages using the command line interface or wrappers in [Python, R, C#, and more](https://www.philippe-fournier-viger.com/spmf/index.php?link=spmfwrappers.php)
+
 **Current version:** `v2.65` (released February 18, 2026)
 
 **IMPORTANT:**  This GitHub repository hosts the source code of the latest version. For full documentation, tutorials, downloads, and support, please visit the official website:  👉 https://www.philippe-fournier-viger.com/spmf/
@@ -26,8 +28,6 @@ SPMF is designed for both **researchers and practitioners**, offering a simple A
 ## 📦 Installation
 
 See the [download page](https://philippe-fournier-viger.com/spmf/index.php?link=download.php) on the SPMF website for installation instructions and usage guidelines.
-
-SPMF can be used as a standalone software with a GUI or with the command line. Moreover, it can also be called from other languages using the command line interface or wrappers in [Python, R, C#, and more](https://www.philippe-fournier-viger.com/spmf/index.php?link=spmfwrappers.php)
 
 ---
 
@@ -42,8 +42,8 @@ SPMF can be used as a standalone software with a GUI or with the command line. M
 - **List of algorithms**:  
   https://philippe-fournier-viger.com/spmf/index.php?link=algorithms.php
 
-- **Datasets from SPMF website** (in SPMF format):  
-  https://philippe-fournier-viger.com/spmf/index.php?link=datasets.php
+## Datasets
+Datasets can be found on the SPMF website** (in SPMF format):  https://philippe-fournier-viger.com/spmf/index.php?link=datasets.php
 
 ---
 
