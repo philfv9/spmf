@@ -104,11 +104,12 @@ For a full list of citations, see the [citations page](https://www.philippe-four
 
 **Project Leaders:**
 
-- **Prof. Philippe Fournier-Viger** (Founder) — https://www.philippe-fournier-viger.com/
+- **Prof. Philippe Fournier-Viger** (Founder) — https://www.philippe-fournier-viger.com/   (e-mail: philfv AT qq DOT com)
 - **Prof. Jerry Chun-Wei Lin**
 - **Prof. Wei Song** — North China University of Technology, Beijing, China
 - **Prof. Vincent S. Tseng** — National Chiao Tung University, Taiwan
 - **Prof. Ji Zhang** — University of Southern Queensland, Australia — https://staffprofile.unisq.edu.au/Profile/Ji-Zhang
 
-A full list of contributors can be found here:  
+**Contributors:**
+A full list of all contributors can be found here:  
 https://www.philippe-fournier-viger.com/spmf/index.php?link=contributors.php
