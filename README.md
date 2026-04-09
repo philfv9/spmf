@@ -114,46 +114,11 @@ retrieve results without needing a local Java integration.
                                              |  300+ algorithms |
                                              +------------------+
 ```
-
-**When to use SPMF-Server:**
-
-- You want to call SPMF from a language with no existing wrapper.
-- You want to run SPMF on a remote machine and query it from a client.
-- You want to integrate SPMF into a web application or microservice.
-- You want to run multiple jobs concurrently with a managed job queue.
-
-**Related projects:**
-
+This can be useful to run SPMF on a remote machine and query it from a client or integrate it into a web application or microservice. See these projects for details: 
 | Project | Description |
 |---|---|
 | [spmf-server](https://github.com/philfv9/spmf-server) | The SPMF-Server REST API server (Java) |
 | [spmf-server-pythonclient](https://github.com/philfv9/spmf-server-pythonclient) | Ready-to-use Python CLI and GUI clients for SPMF-Server |
-
-**Quick start:**
-
-1. Place `spmf-server.jar` and `spmf.jar` in the same folder.
-2. Start the server (Windows):
-   ```bat
-   java -Xmx512m -cp "spmf-server.jar;spmf.jar" ca.pfv.spmf.server.ServerMain spmf-server.properties
-   ```
-   Start the server (Linux / macOS):
-   ```bash
-   java -Xmx512m -cp "spmf-server.jar:spmf.jar" ca.pfv.spmf.server.ServerMain spmf-server.properties
-   ```
-3. Submit a job from any HTTP client:
-   ```bash
-   curl -X POST http://localhost:8585/api/run \
-        -H "Content-Type: application/json" \
-        -d '{"algorithmName":"Apriori","parameters":["0.5"],"inputData":"1 2 3\n2 3 4\n"}'
-   ```
-4. Or use the ready-made Python client from
-   [spmf-server-pythonclient](https://github.com/philfv9/spmf-server-pythonclient).
-
-See the [SPMF-Server README](https://github.com/philfv9/spmf-server#readme)
-for the full REST API reference, configuration options, and troubleshooting
-guide.
-
----
 
 ## Documentation
 
