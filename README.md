@@ -3,11 +3,11 @@
 [![Stars](https://img.shields.io/github/stars/philfv9/spmf-software.svg)](https://github.com/philfv9/spmf-software/stargazers)
 
 <div align="center">
-  <h1>The SPMF Open-Source Pattern Mining Library</h1>
+  <h1>The SPMF Open-Source Pattern Mining Library/Software</h1>
   <img src="images/spmf.png" alt="SPMF Logo" width="200">
 </div>
 
-**[SPMF](https://www.philippe-fournier-viger.com/spmf/)** is a popular **open-source data mining library** written in **Java**, specializing in **pattern mining**. It provides over **300 algorithms** for various tasks such as:
+**[SPMF](https://www.philippe-fournier-viger.com/spmf/)** is a popular **open-source data mining library and software** written in **Java**, specializing in **pattern mining**. It provides over **300 algorithms** for various tasks such as:
 
 - Frequent itemset mining
 - Association rule mining 
