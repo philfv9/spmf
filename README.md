@@ -218,13 +218,13 @@ Citing SPMF helps support the project — thank you! 🙏
 
 **Project Leaders:**
 
-- **Prof. Philippe Fournier-Viger** (Founder) —
+- **Prof. Philippe Fournier-Viger** (Founder), 
   [https://www.philippe-fournier-viger.com/](https://www.philippe-fournier-viger.com/)
   (e-mail: philfv AT qq DOT com)
 - **Prof. Jerry Chun-Wei Lin**
 - **Prof. Wei Song** — North China University of Technology, Beijing, China
 - **Prof. Vincent S. Tseng** — National Chiao Tung University, Taiwan
-- **Prof. Ji Zhang** — University of Southern Queensland, Australia —
+- **Prof. Ji Zhang** — University of Southern Queensland, Australia, 
   [https://staffprofile.unisq.edu.au/Profile/Ji-Zhang](https://staffprofile.unisq.edu.au/Profile/Ji-Zhang)
 
 **Contributors:**
