@@ -10,7 +10,7 @@
 **[SPMF](https://www.philippe-fournier-viger.com/spmf/)** is a popular **open-source data mining library** written in **Java**, specializing in **pattern mining**. It provides over **300 algorithms** for various tasks such as:
 
 - Frequent itemset mining
-- Association rule mining
+- Association rule mining 
 - Sequential pattern mining
 - Sequential rule mining
 - High-utility itemset mining
