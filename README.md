@@ -186,6 +186,40 @@ Datasets in SPMF format are available on the SPMF website:
 
 A general overview of the architecture of SPMF is provided above. To use SPMF, a user can choose to use the Graphical interface, Command line interface or the SPMF-server. The user interacts with any of these interfaces to run algorithms which are managed by a module called the Agorithm Manager. There are mainly three types of algorithms, which are (1) data pre-processing algorithms, (2) data mining algorithms, and (3) algorithms to either visualize data or patterns found in the data. The Algorithm Manager has the list of all available algorithms, and a description of each algorithm. The description of an algorithm indicates how many parameters it has, what are the data  types of parameters, what is the algorithm name, etc. The input and output of algorithms are generally text files. A few different formats are supported, explained in the documentation of SPMF.
 
+The main packages are organized as:
+```
+ca.pfv.spmf/
+│
+├── algorithms/
+│   ├── associationrules/        → Association rule mining algorithms
+│   ├── classifiers/             → Classification algorithms
+│   ├── clustering/              → Clustering algorithms
+│   ├── episodes/                → Episode mining algorithms
+│   ├── frequentpatterns/        → Itemset mining algorithms
+│   ├── graph_mining/            → Graph mining algorithms
+│   ├── sequenceprediction/      → Sequence prediction algorithms
+│   ├── sequential_rules/        → Sequential rule mining algorithms
+│   ├── sequentialpatterns/      → Sequential pattern mining algorithms
+│   ├── sort/                    → Sorting algorithms
+│   └── timeseries/              → Time series mining & analysis algorithms
+│
+├── algorithmmanager/
+│   ├── Algorithm Manager        → Central registry for algorithms
+│   └── descriptions/            → Metadata (input/output types, authors, etc.)
+│
+├── datastructures/              → Specialized data structures (e.g., triangular matrix)
+
+├── gui/                         → Graphical User Interface (MainWindow.java)
+│   └── Main.java                → Command-line entry point
+│
+├── input/                       → Input file readers (transactions, sequences, etc.)
+│
+├── patterns/                    → Pattern representations (itemsets, rules, etc.)
+│
+├── test/                        → Example usage of algorithms (developer samples, not unit tests)
+│
+└── tools/                       → Utilities (generators, converters, statistics, etc.)
+```
 ---
 
 ## Related Resources
