@@ -54,7 +54,7 @@ Launch `spmf.jar` directly to open the built-in Swing GUI. No programming
 required — select an algorithm, set parameters, and run.
 
 <div align="center">
-  <img src="case1.png" alt="SPMF GUI use case">
+  <img src="/images/case1.png" alt="SPMF GUI use case" width="600">
   <br>
   <em>SPMF Graphical User Interface</em>
 </div>
@@ -75,7 +75,7 @@ for installation instructions.
 Run any algorithm directly from the terminal without opening the GUI:
 
 <div align="center">
-  <img src="case2.png" alt="SPMF terminal use case">
+  <img src="/images/case2.png" alt="SPMF terminal use case" width="600">
   <br>
   <em>SPMF Graphical User Interface</em>
 </div>
@@ -98,7 +98,7 @@ algorithm classes programmatically. No external dependencies are required —
 just add `spmf.jar` to your classpath.
 
 <div align="center">
-  <img src="case3.png" alt="SPMF API use case">
+  <img src="/images/case3.png" alt="SPMF API use case" width="600">
   <br>
   <em>SPMF Graphical User Interface</em>
 </div>
@@ -114,7 +114,7 @@ SPMF can be called from **Python, R, C#, and more** via community-provided
 wrappers that invoke the command-line interface:
 
 <div align="center">
-  <img src="case4.png" alt="SPMF wrappers use case">
+  <img src="/images/case4.png" alt="SPMF wrappers use case" width="600">
   <br>
   <em>SPMF Graphical User Interface</em>
 </div>
@@ -131,7 +131,7 @@ HTTP server that wraps the SPMF library and exposes all algorithms as a
 retrieve results without needing a local Java integration.
 
 <div align="center">
-  <img src="images/spmf-server.png" alt="SPMF-Server framework">
+  <img src="images/spmf-server.png" alt="SPMF-Server framework" width="600">
   <br>
   <em>SPMF Graphical User Interface</em>
 </div>
