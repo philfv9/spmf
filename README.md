@@ -1,6 +1,8 @@
 [![License](https://img.shields.io/github/license/philfv9/spmf-software.svg)](https://github.com/philfv9/spmf-software/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/philfv9/spmf-software.svg)](https://github.com/philfv9/spmf-software/releases/latest)
 [![Stars](https://img.shields.io/github/stars/philfv9/spmf-software.svg)](https://github.com/philfv9/spmf-software/stargazers)
+[![Made with Java](https://img.shields.io/badge/Made%20with-Java-yellow)]()
+[![SPMF](https://img.shields.io/badge/SPMF-300%2B%20Algorithms-blue)](http://www.philippe-fournier-viger.com/spmf/)
 
 <div align="center">
   <h1>The SPMF Open-Source Pattern Mining Sofware</h1>
@@ -141,6 +143,7 @@ This can be useful to run SPMF on a remote machine and query it from a client or
 | Project | Description |
 |---|---|
 | [spmf-server](https://github.com/philfv9/spmf-server) | The SPMF-Server REST API server (Java) |
+| [spmf-server-webclient](https://github.com/philfv9/spmf-server-webclient) | Ready-to-use Web client (HTML+JS+CSS) for SPMF-Server |
 | [spmf-server-pythonclient](https://github.com/philfv9/spmf-server-pythonclient) | Ready-to-use Python CLI and GUI clients for SPMF-Server |
 
 ## Documentation
@@ -178,21 +181,58 @@ Datasets in SPMF format are available on the SPMF website:
 
 ## Architecture
 
+A general overview of the architecture of SPMF is provided below.
+
 <div align="center">
   <img src="images/spmf_architecture.png" alt="SPMF architecture"">
   <br>
   <em>SPMF Graphical User Interface</em>
 </div>
 
-A general overview of the architecture of SPMF is provided above. To use SPMF, a user can choose to use the Graphical interface, Command line interface or the SPMF-server. The user interacts with any of these interfaces to run algorithms which are managed by a module called the Agorithm Manager. There are mainly three types of algorithms, which are (1) data pre-processing algorithms, (2) data mining algorithms, and (3) algorithms to either visualize data or patterns found in the data. The Algorithm Manager has the list of all available algorithms, and a description of each algorithm. The description of an algorithm indicates how many parameters it has, what are the data  types of parameters, what is the algorithm name, etc. The input and output of algorithms are generally text files. A few different formats are supported, explained in the documentation of SPMF.
+To use SPMF, a user can choose to use the Graphical interface, Command line interface or the SPMF-server. The user interacts with any of these interfaces to run algorithms which are managed by a module called the Agorithm Manager. There are mainly three types of algorithms, which are (1) data pre-processing algorithms, (2) data mining algorithms, and (3) algorithms to either visualize data or patterns found in the data. The Algorithm Manager has the list of all available algorithms, and a description of each algorithm. The description of an algorithm indicates how many parameters it has, what are the data  types of parameters, what is the algorithm name, etc. The input and output of algorithms are generally text files. A few different formats are supported, explained in the documentation of SPMF.
 
+The source code is organized in several packages. The main packages are:
+```
+ca.pfv.spmf/
+│
+├── algorithms/
+│   ├── associationrules/        → Association rule mining algorithms
+│   ├── classifiers/             → Classification algorithms
+│   ├── clustering/              → Clustering algorithms
+│   ├── episodes/                → Episode mining algorithms
+│   ├── frequentpatterns/        → Itemset mining algorithms
+│   ├── graph_mining/            → Graph mining algorithms
+│   ├── sequenceprediction/      → Sequence prediction algorithms
+│   ├── sequential_rules/        → Sequential rule mining algorithms
+│   ├── sequentialpatterns/      → Sequential pattern mining algorithms
+│   ├── sort/                    → Sorting algorithms
+│   └── timeseries/              → Time series mining & analysis algorithms
+│
+├── algorithmmanager/
+│   ├── Algorithm Manager        → Central registry for algorithms
+│   └── descriptions/            → Metadata (input/output types, authors, etc.)
+│
+├── datastructures/              → Specialized data structures (e.g., triangular matrix)
+
+├── gui/                         → Graphical User Interface (MainWindow.java)
+│   └── Main.java                → Command-line entry point
+│
+├── input/                       → Input file readers (transactions, sequences, etc.)
+│
+├── patterns/                    → Pattern representations (itemsets, rules, etc.)
+│
+├── test/                        → Example usage of algorithms (developer samples, not unit tests)
+│
+└── tools/                       → Utilities (generators, converters, statistics, etc.)
+```
 ---
 
 ## Related Resources
 
 - [The SPMF website](http://philippe-fournier-viger.com/spmf/)
 - [SPMF-Server](https://github.com/philfv9/spmf-server) — REST API server for SPMF
-- [spmf-server-pythonclient](https://github.com/philfv9/spmf-server-pythonclient) — Python CLI and GUI clients for SPMF-Server
+- [SPMF Server Python client](https://github.com/philfv9/spmf-server-pythonclient) — Python CLI and GUI clients for SPMF-Server
+- [SPMF Server Web client](https://github.com/philfv9/spmf-server-webclient). A Web client (HTML+JS+CSS) for the SPMF-Server
 - [The Pattern Mining Course](https://data-mining.philippe-fournier-viger.com/COURSES/Pattern_mining/index.php) — A free online course covering pattern mining algorithms and their implementation
 - [More Pattern Mining Videos on the @philfv YouTube channel](https://www.youtube.com/@philfv)
 - [The Data Blog](https://data-mining.philippe-fournier-viger.com/) — Blog from the founder of SPMF
