@@ -130,8 +130,7 @@ retrieve results without needing a local Java integration.
 </div>
 
 This can be useful to run SPMF on a remote machine and query it from a client or integrate it into a web application or microservice. 
-Currently, the servers can be used with the [SPMF Server Python CLI and GUI clients](https://github.com/philfv9/spmf-server-pythonclient) or  the [SPMF Server Web client](https://github.com/philfv9/spmf-server-webclient) .
-| [spmf-server](https://github.com/philfv9/spmf-server) 
+Currently, the servers can be used with the [SPMF Server Python CLI and GUI clients](https://github.com/philfv9/spmf-server-pythonclient) or  the [SPMF Server Web client](https://github.com/philfv9/spmf-server-webclient).
 
 ## Documentation
 
