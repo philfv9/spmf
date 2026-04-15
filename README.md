@@ -259,13 +259,9 @@ For full details, see the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.e
 
 If you use SPMF in your research, please cite one of the following papers:
 
-> Fournier-Viger, P., et al. (2012). *SPMF: A Java Open-Source Pattern Mining Library.*
-> Journal of Machine Learning Research (JMLR).
+- Fournier-Viger, P., et al. (2012). *SPMF: A Java Open-Source Pattern Mining Library.  Journal of Machine Learning Research (JMLR).
 
-> Fournier-Viger, P., Lin, C.W., Gomariz, A., Gueniche, T., Soltani, A., Deng, Z.,
-> Lam, H. T. (2016). *The SPMF Open-Source Data Mining Library Version 2.*
-> In Proceedings of the 19th European Conference on Principles of Data Mining and
-> Knowledge Discovery (PKDD 2016), Part III, Springer LNCS 9853, pp. 36–40.
+- Fournier-Viger, P., Lin, C.W., Gomariz, A., Gueniche, T., Soltani, A., Deng, Z., Lam, H. T. (2016). *The SPMF Open-Source Data Mining Library Version 2.*  In Proceedings of the 19th European Conference on Principles of Data Mining and Knowledge Discovery (PKDD 2016), Part III, Springer LNCS 9853, pp. 36–40.
 
 For a full list of citations, see the
 [citations page](https://www.philippe-fournier-viger.com/spmf/index.php?link=citations.php).
