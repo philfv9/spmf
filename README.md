@@ -32,7 +32,7 @@ SPMF is designed for both **researchers and practitioners**, offering a simple A
 
 ## Table of Contents
 
-- [Ways to Use SPMF](#ways-to-use-spmf)
+- [Five ways to Use SPMF](#ways-to-use-spmf)
 - [Documentation](#documentation)
 - [Datasets](#datasets)
 - [Architecture](#architecture)
@@ -45,7 +45,7 @@ SPMF is designed for both **researchers and practitioners**, offering a simple A
 
 ---
 
-## Ways to Use SPMF
+## Five ways to Use SPMF
 
 SPMF can be used in several ways depending on your needs:
 
