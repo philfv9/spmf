@@ -35,7 +35,6 @@ The **official website of SPMF** with full documentation, tutorials, and other r
 - [Documentation](#documentation)
 - [Datasets](#datasets)
 - [Architecture](#architecture)
-- [Screenshots](#screenshots)
 - [Related Resources](#related-resources)
 - [Contributing](#contributing)
 - [License](#license)
@@ -201,16 +200,6 @@ ca.pfv.spmf/
 │
 └── tools/                       → Utilities (generators, converters, statistics, etc.)
 ```
----
-
-## Screenshots
-
-<div align="center">
-  <img src="images/spmf_small3.jpg" alt="SPMF GUI Screenshot" width="600">
-  <br>
-  <em>SPMF Graphical User Interface</em>
-</div>
-
 ---
 
 ## Related Resources
