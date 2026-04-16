@@ -94,8 +94,11 @@ The second to use SPMF is through its command line interface (CLI) from the cons
 This command means to run the algorithm named "PrefixSpan" to use the input file named "contextPrefixSpan.txt" to set the output file for the results as "output.txt" to set the parameter of the algorithm (minsup) to 50 %.
 6) After executing this command, the file output.txt will be created. It will contain the result.
 
-See the [documentation](https://philippe-fournier-viger.com/spmf/index.php?link=documentation.php)
-for the full command-line syntax for each algorithm.
+<div align="center">
+  <img src="/images/cmd" alt="SPMF terminal use case" width="600">
+</div>
+
+That's all. If you want to run another algorithm, then follow the same steps.
 
 ---
 
