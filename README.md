@@ -95,7 +95,7 @@ This command means to run the algorithm named "PrefixSpan" to use the input file
 6) After executing this command, the file output.txt will be created. It will contain the result.
 
 <div align="center">
-  <img src="/images/cmd" alt="SPMF terminal use case" width="600">
+  <img src="/images/cmd.png" alt="SPMF console" width="600">
 </div>
 
 That's all. If you want to run another algorithm, then follow the same steps.
