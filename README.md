@@ -116,14 +116,12 @@ To get a good grasp of how the source code of SPMF is organized, you may read th
 
 ### 4 — Wrappers for Other Languages
 
-SPMF can be called from **Python, R, C#, and more** via community-provided
-wrappers that invoke the command-line interface:
-
 <div align="center">
   <img src="/images/case4.png" alt="SPMF wrappers use case" width="600">
 </div>
 
-👉 [SPMF Wrappers page](https://www.philippe-fournier-viger.com/spmf/index.php?link=spmfwrappers.php)
+The fourth way to use SPMF is to call it from language developed using other programming languages using   wrappers for **Python, R, C#, etc.** via community-provided wrappers that invoke the command-line interface of SPMF.
+A list of wrappers is [here](https://www.philippe-fournier-viger.com/spmf/index.php?link=spmfwrappers.php).
 
 ---
 
