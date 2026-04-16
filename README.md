@@ -53,21 +53,18 @@ SPMF can be used in several ways depending on your needs:
 
 ### 1 — Graphical User Interface (GUI)
 
-Launch `spmf.jar` directly to open the built-in Swing GUI. No programming
-required — select an algorithm, set parameters, and run.
+Make sure that Java is installed. Then, download `spmf.jar`. Thereafter, double-click on  `spmf.jar` to launch the SPMF Graphical Interface or run it from the console using this command:
+```bash
+java -jar spmf.jar
+```
+Then, from the user interface, you can select input files, choose an algorithm from more than 300 algorithms, sets its parameters, and run the algorithms. See the [download page](https://philippe-fournier-viger.com/spmf/index.php?link=download.php) of the SPMF websote for more detailed instructions.
 
 <div align="center">
   <img src="/images/case1.png" alt="SPMF GUI use case" width="600">
 </div>
 
-For example:
+For 
 
-```bash
-java -jar spmf.jar
-```
-
-See the [download page](https://philippe-fournier-viger.com/spmf/index.php?link=download.php)
-for installation instructions.
 
 ---
 
