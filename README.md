@@ -228,7 +228,7 @@ for a full list of people who have contributed to the project.
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0 (GPLv3)**.
+The source code and files in this project are licensed under the **GNU General Public License v3.0 (GPLv3)**.
 The GPL license grants four freedoms:
 
 1. Run the program for any purpose
@@ -242,7 +242,7 @@ The GPL license grants four freedoms:
 - License derivative works under the same GPLv3 license
 - Include prominent notices stating that you modified the code, along with the modification date
 
-For full details, see the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
+For full details about the license and its requirements, see the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 ---
 
