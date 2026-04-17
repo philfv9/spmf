@@ -35,7 +35,7 @@ The **official website of SPMF** with full documentation, tutorials, and other r
 - [Documentation](#documentation)
 - [Datasets](#datasets)
 - [Architecture](#architecture)
-- [Related Resources](#how-to-learn-more)
+- [How to learn more?](#how-to-learn-more)
 - [Contributing](#contributing)
 - [License](#license)
 - [How to Cite SPMF](#how-to-cite-spmf)
