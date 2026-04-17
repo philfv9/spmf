@@ -208,7 +208,7 @@ ca.pfv.spmf/
 - [The Data Blog](https://data-mining.philippe-fournier-viger.com/) — Blog from the founder of SPMF
 - [Other Resources](https://www.philippe-fournier-viger.com/spmf/index.php?link=resources.php) — Books, tutorials, links to other projects, etc.
 
-If you want to learn  about the theory Pattern Mining, watch the free [Pattern Mining Course](https://data-mining.philippe-fournier-viger.com/COURSES/Pattern_mining/index.php) course:
+If you want to learn  about the theory Pattern Mining, watch the free [Pattern Mining Course](https://www.philippe-fournier-viger.com/COURSES/Pattern_mining/index.php) course:
 
 <a href="https://www.philippe-fournier-viger.com/COURSES/Pattern_mining/index.php"><img src="images/course.png" alt="pattern mining course" width="200"></a>
 
