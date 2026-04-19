@@ -161,7 +161,7 @@ To run experiments with SPMF, multiple datasets are provided on the SPMF website
 A general overview of the architecture of SPMF is provided below.
 
 <div align="center">
-  <img src="images/spmf_architecture.png" alt="SPMF architecture"">
+  <img src="images/spmf_architecture.jpg" alt="SPMF architecture"">
 </div>
 
 To use SPMF, a user can choose to use the Graphical interface, Command line interface or the SPMF-server. The user interacts with any of these interfaces to run algorithms which are managed by a module called the Agorithm Manager. There are mainly three types of algorithms, which are (1) data pre-processing algorithms, (2) data mining algorithms, and (3) algorithms to either visualize data or patterns found in the data. The Algorithm Manager has the list of all available algorithms, and a description of each algorithm. The description of an algorithm indicates how many parameters it has, what are the data  types of parameters, what is the algorithm name, etc. The input and output of algorithms are generally text files. A few different formats are supported, explained in the documentation of SPMF.
