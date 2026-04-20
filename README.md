@@ -33,6 +33,7 @@ The **official website of SPMF** with full documentation, tutorials, and other r
 
 - [Quickstart](#quickstart)
 - [Documentation](#documentation)
+- [Algorithms](#algorithms)
 - [Datasets](#datasets)
 - [Architecture](#architecture)
 - [How to learn more?](#how-to-learn-more)
@@ -179,6 +180,150 @@ The main documentation of SPMF and other resources can be found on the SPMF webs
 
 
 ---
+
+## Algorithms
+
+SPMF offers more than 300 algorithms and tools. A brief overview of the algorithms is presented below. The full list can be found on the [algorithms](https://philippe-fournier-viger.com/spmf/index.php?link=algorithms.php) page of the website.
+
+| Category | Algorithms |
+|----------|-----------|
+| **Frequent Sequential Patterns** | CM-SPADE, CM-SPAM, FAST, GSP, LAPIN, PrefixSpan, SPADE, SPAM |
+| **Closed Sequential Patterns** | ClaSP, CM-ClaSP, CloFAST, CloSpan, BIDE+ |
+| **Maximal Sequential Patterns** | VMSP, MaxSP |
+| **Top-k Sequential Patterns** | TKS, TSP, Skopus |
+| **Generator Sequential Patterns** | VGEN, FEAT, FSGP |
+| **Nonoverlapping Sequential Patterns** | NOSEP |
+| **Compressing Sequential Patterns** | GoKrimp, SeqKrimp, HMG-GA, HMG-SA |
+| **Quantile Cohesive Sequential Patterns** | QCSP |
+| **Multidimensional Sequential Patterns** | SeqDIM, Songram et al., Fournier-Viger et al. |
+| **High-Utility Sequential Patterns** | USPAN |
+| **Cost-Efficient Sequential Patterns** | CorCEPB, CEPB, CEPN |
+| **High-Utility Probability Sequential Patterns** | PHUSPM, UHUSPM |
+| **Progressive Sequential Pattern Mining** | ProSecCo |
+| **Sequential Patterns with Flexible Constraints** | SPM-FC-L, SPM-FC-P, Occur |
+| **Time Interval Related Patterns (TIRP)** | FastTIRP, VertTIRP |
+
+### Sequential Rule Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Sequential Rules** | ERMiner, RuleGrowth, CMRules, CMDeo, RuleGen |
+| **Sequential Rules with Window Size** | TRuleGrowth |
+| **Top-k Sequential Rules** | TopSeqRules, TopSeqClassRules, TNS |
+| **High-Utility Sequential Rules** | HUSRM |
+
+### Sequence Prediction
+
+| Algorithm | Reference |
+|-----------|-----------|
+| CPT+ | Gueniche et al., 2015 |
+| CPT | Gueniche et al., 2013 |
+| PPM (1st-order Markov) | Clearly et al., 1984 |
+| Dependency Graph (DG) | Padmanabhan, 1996 |
+| AKOM | Pitkow, 1999 |
+| TDAG | Laird & Saul, 1994 |
+| LZ78 | Ziv, 1978 |
+
+### Itemset Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Frequent Itemsets** | Apriori, AprioriTID, FP-Growth, Eclat, dEclat, Relim, H-Mine, LCMFreq, PrePost, PrePost+, FIN, DFIN, NegFIN, DIC, TM, SAM, LinearTable |
+| **Closed Frequent Itemsets** | FPClose, Charm, dCharm, DCI_Closed, LCM, AprioriClose, AprioriTID Close, NAFCP, NEclatClosed, CARPENTER, DBVMiner, NEWCHARM |
+| **Recovering Frequent from Closed** | LevelWise, DFI-Growth, DFI-List |
+| **Maximal Frequent Itemsets** | FPMax, Charm-MFI, CARPENTER-MAX, GENMAX |
+| **Multiple Minimum Supports** | MSApriori, CFPGrowth++ |
+| **Generator Itemsets** | DefMe, Talky-G, Talky-G-Diffset, Pascal, Zart |
+| **Rare & Correlated Itemsets** | AprioriInverse, AprioriTIDInverse, AprioriRare, AprioriTIDRare, CORI, RP-Growth |
+| **Dynamic Queries** | Itemset-Tree, Memory-Efficient Itemset-Tree |
+| **Stream Itemsets** | estDec, estDec+, CloStream, U-Apriori, VME |
+| **Fuzzy Frequent Itemsets** | FFI-Miner, MFFI-Miner, OPUS-Miner |
+| **Compressing Itemsets (MDL)** | KRIMP, SLIM, GRIMP, HMP-SA, HMP-HC |
+| **Top-k Frequent Itemsets** | Apriori(top-k), FPGrowth(top-k) |
+
+### Episode Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Frequent Episodes** | EMMA, AFEM, MINEPI+, MINEPI, TKE, MaxFEM, EMDO |
+| **Episode Rules** | POERM, POERM-ALL, POERMH, NONEPI, EMDO-Rules, EMDOP-Rules |
+| **Episode Rules Generation** | from TKE/AFEM/EMMA/MINEPI+ output |
+| **High-Utility Episodes** | HUE-SPAN, US-SPAN, TUP |
+| **Nonoverlapping Patterns** | NOSEP |
+| **Periodic Wildcard Gap Patterns** | MAPD |
+| **One-off Weak-gap Strong Patterns** | OWSP-Miner |
+
+### Periodic Pattern Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Frequent Periodic Patterns** | PFPM |
+| **Stable Periodic Itemsets** | SPP-Growth, TSPIN |
+| **Locally Periodic Patterns** | LPP-Growth, LPPM_breadth, LPPM_depth |
+| **Significant/Non-redundant Periodic** | NPFPM, PPFP, SRPFPM |
+| **Periodic High-Utility Itemsets** | PHM, PHMN, PHMN+, PHM_irregular |
+| **Periodic Patterns in Multiple Sequences** | MPFPS_BFS, MPFPS_DFS |
+| **Rare Correlated Periodic Patterns** | MRCPPS |
+
+### Graph Pattern Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Frequent Subgraphs** | TKG, gSpan, cgSpan |
+| **Dynamic Attributed Graph** | TSeqMiner, AER-Miner |
+
+### High-Utility Pattern Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **High-Utility Itemsets (HUI)** | EFIM, FHM, HUI-Miner, HUP-Miner, mHUIMiner, UFH, HMiner, ULB-Miner, IHUP, Two-Phase, UP-Growth, UP-Growth+, UP-Hist, d2HUP, FHIM, PUCPMiner, RMiner |
+| **HUI with Length Constraints** | FHM+ |
+| **Correlated HUI** | FCHM_bond, FCHM_allconfidence, ECHUM |
+| **HUI with Negative Utility** | FHN, HUINIV-Mine |
+| **Multi-level / Cross-level HUI** | CLH-Miner, FEACP, MLHUI-Miner |
+| **Low-cost HUI** | LCIM |
+| **Frequent HUI** | FHMFreq |
+| **On-shelf HUI** | FOSHU, TS-HOUN |
+| **Incremental HUI** | EIHI, HUI-LIST-INS |
+| **Incremental Closed HUI** | IncCHUI |
+| **Concise HUI Representations** | HUG-Miner, GHUI-Miner, MinFHM, EFIM-Closed, CHUI-Miner, CLS-Miner, HMiner_Closed, CHUD, CHUI-Miner(Max), HUCI_Miner |
+| **Skyline HUI** | SkyMine, SFUI_UF, SFU_CE, SFUPMinerUemax, EMSFUI_D, EMSFUI_B |
+| **Top-k HUI** | TKU, TKO-Basic, THUI |
+| **Top-k HUI from Stream** | FHMDS, FHMDS-Naive |
+| **Quantitative HUI** | FHUQI-Miner, VHUQI, TKQ, CHUQI-Miner |
+| **High-Utility Sequential Rules** | HUSRM |
+| **High-Utility Sequential Patterns** | USPAN |
+| **Cost-Efficient Sequential Patterns** | CorCEPB, CEPB, CEPN |
+| **High-Utility Probability Sequential** | PHUSPM, UHUSPM |
+| **Heuristic Top-k HUI** | TKU-CE, TKU-CE+ |
+| **HUI via Meta-heuristics** | HUIM-AF, HUIM-HC, HUIM-SA, HUIM-ACO, HUIM-SPSO, HUIF-PSO, HUIF-GA, HUIF-BA, HUIM-ABC, HUIM-GA, HUIM-BPSO, HUIM-GA-tree, HUIM-BPSO-tree |
+| **High Average-Utility Itemsets** | HAUI-Miner, EHAUPM, HAUIM-GMU, HAUI-MMAU, MEMU |
+| **Top-k High Average-Utility** | ETAUIM |
+| **High-Utility Episodes** | HUE-SPAN, TUP, UP-SPAN |
+| **Periodic High-Utility** | PHM, PHMN, PHMN+ |
+| **Irregular High-Utility** | PHM_irregular |
+| **Local High-Utility** | LHUI-Miner |
+| **Peak High-Utility** | PHUI-Miner |
+| **Locally Trending HUI** | LTHUI-Miner |
+| **HUI with Recency Constraint** | ScentedUtilityMiner |
+| **High-Utility Association Rules** | HGB_all, HGB |
+
+### Association Rule Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Standard Association Rules** | Confidence-based, Lift-based, IGB basis, Sporadic rules, Closed rules, Minimal non-redundant rules |
+| **Specialized Rules** | Indirect (Tan et al.), FHSAR (hiding sensitive rules) |
+| **Top-k Association Rules** | TopKRules, ETARM, FTARM, TNR |
+| **Class Association Rules** | TopKClassRules, ACAC, ACCF, ACN, ADT, CBA, CBA2, CMAR, L3, MAC |
+| **High-Utility Association Rules** | HGB, HGB_All |
+
+### Stream Pattern Mining
+
+| Category | Algorithms |
+|----------|-----------|
+| **Frequent Itemsets in Stream** | estDec, estDec+, CloStream |
+| **Top-k HUI 
 
 ## Datasets
 
