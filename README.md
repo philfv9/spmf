@@ -91,10 +91,9 @@ The second to use SPMF is through its command line interface (CLI) from the cons
 3) To run an algorithm, go to the [documentation](https://philippe-fournier-viger.com/spmf/index.php?link=documentation.php) of SPMF  find the example corresponding to the algorithm that you want to run. For example, let's say that you want to run the **PrefixSpan** algorithm. It is this [example](https://philippe-fournier-viger.com/spmf/PrefixSpan.php) in the [documentation](https://philippe-fournier-viger.com/spmf/index.php?link=documentation.php).
 5) Open the command prompt (if you are using Windows) or the terminal (if you are using Linux). Then, type the command specified in the example. For example, for PrefixSpan, the command is:
    
-  ```java -jar spmf.jar run PrefixSpan contextPrefixSpan.txt output.txt 50%```
+    ```java -jar spmf.jar run PrefixSpan contextPrefixSpan.txt output.txt 50%```
   
-This command means to run the algorithm named "PrefixSpan" to use the input file named "contextPrefixSpan.txt" to set the output file for the results as "output.txt" to set the parameter of the algorithm (minsup) to 50 %.
-6) After executing this command, the file output.txt will be created. It will contain the result.
+This command means to run the algorithm named "PrefixSpan" to use the input file named "contextPrefixSpan.txt" to set the output file for the results as "output.txt" to set the parameter of the algorithm (minsup) to 50 %. After executing this command, the file output.txt will be created. It will contain the result.
 
 <div align="center">
   <img src="/images/cmd.png" alt="SPMF console" width="600">
