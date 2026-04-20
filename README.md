@@ -185,6 +185,8 @@ The main documentation of SPMF and other resources can be found on the SPMF webs
 
 SPMF offers more than 300 algorithms and tools. A brief overview of the algorithms is presented below. The full list can be found on the [algorithms](https://philippe-fournier-viger.com/spmf/index.php?link=algorithms.php) page of the website.
 
+### Sequential Pattern Mining
+
 | Category | Algorithms |
 |----------|-----------|
 | **Frequent Sequential Patterns** | CM-SPADE, CM-SPAM, FAST, GSP, LAPIN, PrefixSpan, SPADE, SPAM |
@@ -197,8 +199,8 @@ SPMF offers more than 300 algorithms and tools. A brief overview of the algorith
 | **Quantile Cohesive Sequential Patterns** | QCSP |
 | **Multidimensional Sequential Patterns** | SeqDIM, Songram et al., Fournier-Viger et al. |
 | **High-Utility Sequential Patterns** | USPAN |
-| **Cost-Efficient Sequential Patterns** | CorCEPB, CEPB, CEPN |
 | **High-Utility Probability Sequential Patterns** | PHUSPM, UHUSPM |
+| **Cost-Efficient Sequential Patterns** | CorCEPB, CEPB, CEPN |
 | **Progressive Sequential Pattern Mining** | ProSecCo |
 | **Sequential Patterns with Flexible Constraints** | SPM-FC-L, SPM-FC-P, Occur |
 | **Time Interval Related Patterns (TIRP)** | FastTIRP, VertTIRP |
@@ -230,14 +232,19 @@ SPMF offers more than 300 algorithms and tools. A brief overview of the algorith
 |----------|-----------|
 | **Frequent Itemsets** | Apriori, AprioriTID, FP-Growth, Eclat, dEclat, Relim, H-Mine, LCMFreq, PrePost, PrePost+, FIN, DFIN, NegFIN, DIC, TM, SAM, LinearTable |
 | **Closed Frequent Itemsets** | FPClose, Charm, dCharm, DCI_Closed, LCM, AprioriClose, AprioriTID Close, NAFCP, NEclatClosed, CARPENTER, DBVMiner, NEWCHARM |
-| **Recovering Frequent from Closed** | LevelWise, DFI-Growth, DFI-List |
+| **Recovering Frequent Itemsets from Closed** | LevelWise, DFI-Growth, DFI-List |
 | **Maximal Frequent Itemsets** | FPMax, Charm-MFI, CARPENTER-MAX, GENMAX |
-| **Multiple Minimum Supports** | MSApriori, CFPGrowth++ |
+| **Frequent Itemsets with Multiple Min. Supports** | MSApriori, CFPGrowth++ |
 | **Generator Itemsets** | DefMe, Talky-G, Talky-G-Diffset, Pascal, Zart |
-| **Rare & Correlated Itemsets** | AprioriInverse, AprioriTIDInverse, AprioriRare, AprioriTIDRare, CORI, RP-Growth |
-| **Dynamic Queries** | Itemset-Tree, Memory-Efficient Itemset-Tree |
-| **Stream Itemsets** | estDec, estDec+, CloStream, U-Apriori, VME |
-| **Fuzzy Frequent Itemsets** | FFI-Miner, MFFI-Miner, OPUS-Miner |
+| **Rare Itemsets** | AprioriInverse (perfectly rare), AprioriTIDInverse, AprioriRare (minimal rare), AprioriTIDRare |
+| **Rare Correlated Itemsets** | CORI, RP-Growth |
+| **Targeted & Dynamic Queries on Itemsets** | Itemset-Tree, Memory-Efficient Itemset-Tree |
+| **Recent Frequent Itemsets in Streams** | estDec, estDec+ |
+| **Frequent Closed Itemsets in Streams** | CloStream |
+| **Frequent Itemsets in Uncertain Data** | U-Apriori |
+| **Erasable Itemsets** | VME |
+| **Fuzzy Frequent Itemsets** | FFI-Miner, MFFI-Miner |
+| **Self-sufficient Itemsets** | OPUS-Miner |
 | **Compressing Itemsets (MDL)** | KRIMP, SLIM, GRIMP, HMP-SA, HMP-HC |
 | **Top-k Frequent Itemsets** | Apriori(top-k), FPGrowth(top-k) |
 
@@ -245,32 +252,42 @@ SPMF offers more than 300 algorithms and tools. A brief overview of the algorith
 
 | Category | Algorithms |
 |----------|-----------|
-| **Frequent Episodes** | EMMA, AFEM, MINEPI+, MINEPI, TKE, MaxFEM, EMDO |
+| **Frequent Episodes** | EMMA, AFEM, MINEPI+, MINEPI |
+| **Top-k Frequent Episodes** | TKE |
+| **Maximal Frequent Episodes** | MaxFEM |
+| **Frequent Parallel Episodes (distinct occurrences)** | EMDO |
 | **Episode Rules** | POERM, POERM-ALL, POERMH, NONEPI, EMDO-Rules, EMDOP-Rules |
-| **Episode Rules Generation** | from TKE/AFEM/EMMA/MINEPI+ output |
-| **High-Utility Episodes** | HUE-SPAN, US-SPAN, TUP |
-| **Nonoverlapping Patterns** | NOSEP |
-| **Periodic Wildcard Gap Patterns** | MAPD |
-| **One-off Weak-gap Strong Patterns** | OWSP-Miner |
+| **Episode Rules (generated from frequent episodes)** | Generator from TKE / AFEM / EMMA / MINEPI+ output |
+| **High-Utility Episodes** | HUE-SPAN, US-SPAN |
+| **Top-k High-Utility Episodes** | TUP |
+| **Nonoverlapping Episodes** | NOSEP |
+| **Episodes with Periodic Wildcard Gaps** | MAPD |
+| **One-off Weak-gap Strong Episodes** | OWSP-Miner |
 
 ### Periodic Pattern Mining
 
 | Category | Algorithms |
 |----------|-----------|
-| **Frequent Periodic Patterns** | PFPM |
-| **Stable Periodic Itemsets** | SPP-Growth, TSPIN |
+| **Frequent Periodic Patterns (single sequence)** | PFPM |
+| **Stable Periodic Itemsets** | SPP-Growth |
+| **Top-k Stable Periodic Itemsets** | TSPIN |
 | **Locally Periodic Patterns** | LPP-Growth, LPPM_breadth, LPPM_depth |
-| **Significant/Non-redundant Periodic** | NPFPM, PPFP, SRPFPM |
-| **Periodic High-Utility Itemsets** | PHM, PHMN, PHMN+, PHM_irregular |
+| **Non-redundant Periodic Patterns** | NPFPM |
+| **Productive Periodic Patterns** | PPFP |
+| **Self-reliant Periodic Patterns** | SRPFPM |
+| **Periodic High-Utility Itemsets** | PHM, PHMN, PHMN+ |
+| **Irregular (Non-periodic) High-Utility Itemsets** | PHM_irregular |
 | **Periodic Patterns in Multiple Sequences** | MPFPS_BFS, MPFPS_DFS |
-| **Rare Correlated Periodic Patterns** | MRCPPS |
+| **Rare Correlated Periodic Patterns (multiple sequences)** | MRCPPS |
 
 ### Graph Pattern Mining
 
 | Category | Algorithms |
 |----------|-----------|
-| **Frequent Subgraphs** | TKG, gSpan, cgSpan |
-| **Dynamic Attributed Graph** | TSeqMiner, AER-Miner |
+| **All Frequent Subgraphs** | gSpan |
+| **Top-k Frequent Subgraphs** | TKG |
+| **Frequent Closed Subgraphs** | cgSpan |
+| **Patterns in Dynamic Attributed Graphs** | TSeqMiner, AER-Miner |
 
 ### High-Utility Pattern Mining
 
@@ -280,31 +297,34 @@ SPMF offers more than 300 algorithms and tools. A brief overview of the algorith
 | **HUI with Length Constraints** | FHM+ |
 | **Correlated HUI** | FCHM_bond, FCHM_allconfidence, ECHUM |
 | **HUI with Negative Utility** | FHN, HUINIV-Mine |
-| **Multi-level / Cross-level HUI** | CLH-Miner, FEACP, MLHUI-Miner |
+| **Multi-level / Cross-level HUI (with taxonomy)** | CLH-Miner, FEACP, MLHUI-Miner |
 | **Low-cost HUI** | LCIM |
 | **Frequent HUI** | FHMFreq |
-| **On-shelf HUI** | FOSHU, TS-HOUN |
+| **On-shelf HUI (items with time periods)** | FOSHU, TS-HOUN |
 | **Incremental HUI** | EIHI, HUI-LIST-INS |
 | **Incremental Closed HUI** | IncCHUI |
-| **Concise HUI Representations** | HUG-Miner, GHUI-Miner, MinFHM, EFIM-Closed, CHUI-Miner, CLS-Miner, HMiner_Closed, CHUD, CHUI-Miner(Max), HUCI_Miner |
-| **Skyline HUI** | SkyMine, SFUI_UF, SFU_CE, SFUPMinerUemax, EMSFUI_D, EMSFUI_B |
+| **Closed HUI** | EFIM-Closed, CHUI-Miner, CLS-Miner, HMiner_Closed, CHUD |
+| **Maximal HUI** | CHUI-Miner(Max) |
+| **Generator HUI** | HUG-Miner, GHUI-Miner |
+| **Minimal HUI** | MinFHM |
+| **Closed HUI and Generators** | HUCI_Miner |
+| **Skyline HUI** | SkyMine |
+| **Skyline Frequent HUI** | SFUI_UF, SFU_CE, SFUPMinerUemax, EMSFUI_D, EMSFUI_B |
 | **Top-k HUI** | TKU, TKO-Basic, THUI |
-| **Top-k HUI from Stream** | FHMDS, FHMDS-Naive |
-| **Quantitative HUI** | FHUQI-Miner, VHUQI, TKQ, CHUQI-Miner |
-| **High-Utility Sequential Rules** | HUSRM |
-| **High-Utility Sequential Patterns** | USPAN |
-| **Cost-Efficient Sequential Patterns** | CorCEPB, CEPB, CEPN |
-| **High-Utility Probability Sequential** | PHUSPM, UHUSPM |
 | **Heuristic Top-k HUI** | TKU-CE, TKU-CE+ |
-| **HUI via Meta-heuristics** | HUIM-AF, HUIM-HC, HUIM-SA, HUIM-ACO, HUIM-SPSO, HUIF-PSO, HUIF-GA, HUIF-BA, HUIM-ABC, HUIM-GA, HUIM-BPSO, HUIM-GA-tree, HUIM-BPSO-tree |
-| **High Average-Utility Itemsets** | HAUI-Miner, EHAUPM, HAUIM-GMU, HAUI-MMAU, MEMU |
-| **Top-k High Average-Utility** | ETAUIM |
-| **High-Utility Episodes** | HUE-SPAN, TUP, UP-SPAN |
-| **Periodic High-Utility** | PHM, PHMN, PHMN+ |
-| **Irregular High-Utility** | PHM_irregular |
-| **Local High-Utility** | LHUI-Miner |
-| **Peak High-Utility** | PHUI-Miner |
-| **Locally Trending HUI** | LTHUI-Miner |
+| **Top-k HUI from Streams** | FHMDS, FHMDS-Naive |
+| **Quantitative HUI** | FHUQI-Miner, VHUQI |
+| **Top-k Quantitative HUI** | TKQ |
+| **Correlated Quantitative HUI** | CHUQI-Miner |
+| **HUI via Evolutionary Algorithms** | HUIM-GA, HUIM-GA-tree, HUIF-GA |
+| **HUI via Swarm Intelligence** | HUIM-ACO, HUIM-SPSO, HUIM-BPSO, HUIM-BPSO-tree, HUIF-PSO, HUIF-BA, HUIM-ABC |
+| **HUI via Other Meta-heuristics** | HUIM-AF, HUIM-HC, HUIM-SA |
+| **High Average-Utility Itemsets** | HAUI-Miner, EHAUPM, HAUIM-GMU |
+| **High Average-Utility with Multiple Thresholds** | HAUI-MMAU, MEMU |
+| **Top-k High Average-Utility Itemsets** | ETAUIM |
+| **Local High-Utility Itemsets** | LHUI-Miner |
+| **Peak High-Utility Itemsets** | PHUI-Miner |
+| **Locally Trending High-Utility Itemsets** | LTHUI-Miner |
 | **HUI with Recency Constraint** | ScentedUtilityMiner |
 | **High-Utility Association Rules** | HGB_all, HGB |
 
@@ -312,18 +332,168 @@ SPMF offers more than 300 algorithms and tools. A brief overview of the algorith
 
 | Category | Algorithms |
 |----------|-----------|
-| **Standard Association Rules** | Confidence-based, Lift-based, IGB basis, Sporadic rules, Closed rules, Minimal non-redundant rules |
-| **Specialized Rules** | Indirect (Tan et al.), FHSAR (hiding sensitive rules) |
-| **Top-k Association Rules** | TopKRules, ETARM, FTARM, TNR |
-| **Class Association Rules** | TopKClassRules, ACAC, ACCF, ACN, ADT, CBA, CBA2, CMAR, L3, MAC |
+| **All Association Rules (confidence)** | Standard algorithm (Agrawal & Srikant, 1994) |
+| **All Association Rules (lift)** | Adapted standard algorithm |
+| **Informative & Generic Basis** | IGB (Gasmi et al., 2005) |
+| **Sporadic Association Rules** | AprioriInverse-based (Koh & Roundtree, 2005) |
+| **Closed Association Rules** | Closed rule algorithm (Szathmary et al., 2006) |
+| **Minimal Non-redundant Association Rules** | Kryszkiewicz, 1998 |
+| **Indirect Association Rules** | Indirect (Tan et al., 2000, 2006) |
+| **Hiding Sensitive Association Rules** | FHSAR (Weng et al., 2008) |
+| **Top-k Association Rules** | TopKRules, ETARM, FTARM |
+| **Top-k Non-redundant Association Rules** | TNR |
+| **Top-k Class Association Rules** | TopKClassRules |
+| **Class Association Rules** | ACAC, ACCF, ACN, ADT, CBA, CBA2, CMAR, L3, MAC |
 | **High-Utility Association Rules** | HGB, HGB_All |
 
 ### Stream Pattern Mining
 
 | Category | Algorithms |
 |----------|-----------|
-| **Frequent Itemsets in Stream** | estDec, estDec+, CloStream |
-| **Top-k HUI 
+| **Recent Frequent Itemsets** | estDec, estDec+ |
+| **Frequent Closed Itemsets** | CloStream |
+| **Top-k High-Utility Itemsets** | FHMDS, FHMDS-Naive |
+
+### Clustering
+
+| Category | Algorithms |
+|----------|-----------|
+| **Partition-based** | K-Means, Bisecting K-Means, K-Means++ |
+| **Density-based** | DBScan, OPTICS, Density Peak Clustering (DPC), AEDBScan |
+| **Hierarchical** | Hierarchical Clustering |
+
+### Time Series Mining
+
+| Category | Methods |
+|----------|---------|
+| **Symbolic Representation** | SAX (converts time series to symbol sequences) |
+| **Prior Moving Average** | Noise removal via prior moving average |
+| **Cumulative Moving Average** | Noise removal via cumulative moving average |
+| **Central Moving Average** | Noise removal via central moving average |
+| **Median Smoothing** | Noise removal via median smoothing |
+| **Exponential Smoothing** | Noise removal via exponential smoothing |
+| **Normalization** | Min-max normalization |
+| **Standardization** | Z-score standardization |
+| **Differencing** | 1st and 2nd order differencing |
+| **Data Reduction** | Piecewise Aggregate Approximation (PAA) |
+| **Autocorrelation** | Autocorrelation function |
+| **Linear Regression** | Least squares linear regression |
+| **Segmentation** | Split by segment length, split into fixed number of segments |
+| **Clustering** | K-Means, Bisecting K-Means, DBScan, OPTICS, Hierarchical (applied to time series) |
+
+### Classification
+
+| Category | Algorithms |
+|----------|-----------|
+| **Decision Trees** | ID3 |
+| **Instance-based** | KNN (K-Nearest Neighbor) |
+| **Class Association Rule-based** | ACAC, ACCF, ACN, ADT, CBA, CBA2, CMAR, L3, MAC |
+| **Evaluation Framework** | Holdout & k-fold cross-validation |
+
+### Text Mining
+
+| Task | Method |
+|------|--------|
+| **Document Classification** | Naive Bayes classifier |
+| **Document Clustering** | tf×idf-based clustering |
+
+### Dataset Generation Tools
+
+| Tool |
+|------|
+| Synthetic transaction database generator |
+| Synthetic sequence database generator |
+| Synthetic sequence database with timestamps generator |
+| Clustering dataset generator |
+
+### Dataset Transformation Tools
+
+| Tool |
+|------|
+| Sequence database → transaction database |
+| Transaction database → sequence database |
+| Text file → sequence database (each sentence = one sequence) |
+| Sequence database format converter (CSV, KOSARAK, BMS, IBM → SPMF) |
+| Transaction database format converter (CSV → SPMF) |
+| Time series → sequence database |
+| Utility value generator for transaction databases |
+| Timestamp adder for sequence databases |
+| Transaction database fixer (with/without utility/time info) |
+| Utility information remover |
+| Database resizer (by percentage of lines) |
+| Record sampler (reservoir, seed, etc.) |
+| Duplicate record remover |
+
+### Dataset Statistics Tools
+
+| Tool |
+|------|
+| Transaction database |
+| Transaction database with utility |
+| Transaction database with cost and utility |
+| Transaction database with utility and period info |
+| Transaction database with utility and timestamps |
+| Sequence database |
+| Sequence database with cost and binary utility |
+| Sequence database with cost and numeric utility |
+| Sequence database with utility |
+| Time-extended sequence database |
+| Multi-dimensional sequence database |
+| Multi-dimensional sequence database with timestamps |
+| Graph database |
+| Product transaction database |
+| Event sequence |
+| Interval sequence database |
+| Uncertain transaction database |
+| Double vectors (instances for clustering) |
+| Time series |
+
+### Dataset Viewer Tools
+
+| Tool |
+|------|
+| Time series viewer |
+| Cluster viewer |
+| Graph / subgraph viewer (TKG, gSpan, cgSpan) |
+| ARFF file viewer |
+| Event sequence viewer |
+| Sequence database viewer |
+| Sequence database with cost binary utility viewer |
+| Sequence database with cost numeric utility viewer |
+| Sequence database with utility viewer |
+| Time-extended sequence database viewer |
+| Multi-dimensional sequence database viewer |
+| Multi-dimensional time sequence database viewer |
+| Transaction database viewer |
+| Transaction database with cost utility viewer |
+| Uncertain transaction database viewer |
+| Utility transaction database viewer |
+| Utility time transaction database viewer |
+| Utility period transaction database viewer |
+| Product transaction database viewer |
+| Sequence database with time intervals viewer |
+| Taxonomy file viewer |
+
+### GUI Tools
+
+| Tool |
+|------|
+| Algorithm Explorer |
+| Memory Viewer (real-time memory usage) |
+| Pattern Viewer (with frequency distributions) |
+| Workflow Editor |
+| Experiment Runner (vary parameters across algorithms) |
+| SPMF Text Editor |
+| Documentation Downloader |
+| Pattern Diff Analyzer (contrast patterns) |
+| Algorithm Graph Viewer (algorithm similarity graph) |
+
+### Other Tools & Data Structures
+
+| Category | Items |
+|----------|-------|
+| **Other Tools** | Export algorithm list to JSON |
+| **Data Structures** | Red-black tree, Itemset-tree, Binary tree, KD-tree, Triangular matrix, Optimized primitive-type collections (hashmaps, lists, sets, etc.) |
 
 ## Datasets
 
