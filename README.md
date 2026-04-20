@@ -99,6 +99,9 @@ This command means to run the algorithm named "PrefixSpan" to use the input file
   <img src="/images/cmd.png" alt="SPMF console" width="600">
 </div>
 
+
+The input and output file format of each algorithm is described in the  [documentation](https://philippe-fournier-viger.com/spmf/index.php?link=documentation.php).
+
 That's all. If you want to run another algorithm, then follow the same steps.
 
 ---
@@ -136,6 +139,8 @@ algo.printStatistics();
 
 In this example, the input file `contextPrefixSpan.txt` corresponds to the dataset used in the official documentation and can be found in the `ca/pfv/spmf/tests/` directory. The output file is written to `.//output.txt`, although this path can be replaced by any valid location on the user’s system. The call to `runAlgorithm()` triggers the execution of the algorithm. The value `0.5` represents the minimum support threshold, whose exact interpretation is described in the SPAM documentation. Finally, each algorithm is associated with a description class located in the package `ca/pfv/spmf/algorithmmanager/descriptions`. These classes provide metadata such as the authors of the algorithm, the expected input and output formats, the list of parameters, and instructions for execution. They play an important role in the system: the graphical user interface relies on them to dynamically populate the list of available algorithms, while the command-line interface uses them to inform users about the required parameters and usage details. For instance, the SPAM algorithm is documented by the class `DescriptionAlgoSPAM`.
 Other algorithms can be run in a similar way.
+
+The input and output file format of each algorithm is described in the  [documentation](https://philippe-fournier-viger.com/spmf/index.php?link=documentation.php).
 
 ---
 
