@@ -164,7 +164,9 @@ A list of wrappers is [here](https://www.philippe-fournier-viger.com/spmf/index.
 
 The fifth way to use SPMF is through the **[SPMF-Server](https://github.com/philfv9/spmf-server)**, a lightweight
 HTTP server that wraps the SPMF library and exposes all algorithms as a **REST API**. This lets any language or tool submit mining jobs over HTTP and retrieve results without needing a local Java integration. This can be useful to run SPMF on a remote machine and query it from a client, from the browser or integrate it into a web application or microservice. 
-Currently, the SPMF server can be used with the [SPMF Server Python CLI and GUI clients](https://github.com/philfv9/spmf-server-pythonclient) or  the [SPMF Server Web client](https://github.com/philfv9/spmf-server-webclient). For more details about how to install and run the SPMF-Server, please see the [SPMF-Server](https://github.com/philfv9/spmf-server) project.
+Currently, the SPMF server can be used with the [SPMF Server Python CLI and GUI clients](https://github.com/philfv9/spmf-server-pythonclient) or  the [SPMF Server Web client](https://github.com/philfv9/spmf-server-webclient). 
+
+For details about how to install and run the SPMF-Server, please see the [SPMF-Server](https://github.com/philfv9/spmf-server) project.
 
 ## Documentation
 
