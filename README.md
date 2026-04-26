@@ -110,7 +110,7 @@ That's all. If you want to run another algorithm, then follow the same steps.
 ### 3 — Java API
 
 <div align="center">
-  <img src="/images/case3.png" alt="SPMF API use case" width="600">
+  <img src="/images/case3.png" alt="SPMF Java API use case" width="600">
 </div>
 
 The third way to use SPMF is by integrating it into Java projects. For this, you can download `spmf.jar` and include it in the classpath of your Java project, and then call the classes from SPMF from your Java program. Or alternatively, you can download `spmf.zip` or clone the project to obtain SPMF source code. 
